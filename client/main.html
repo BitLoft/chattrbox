@@ -1,17 +1,13 @@
-<head>
-    <title>Chattrbox</title>
-</head>
-<body>
-{{> modal}}
-<div class="container">
-    {{> header}}
-    <div id="main" class="row-fluid">
-        {{renderPage}}
-    </div>
-</div>
-
-</body>
-
-<template name="layout">
-    {{{yield}}}
-</template>
+<html>
+ <head>
+  <title>Chattrbox</title>
+ </head>
+ <body>
+  {{&gt; modal}}
+  <div class="container">
+   {{&gt; header}}
+   <div class="row-fluid" id="main">
+    {{renderPage}}</div>
+  </div>
+  <template name="layout"> {{{yield}}} </template></body>
+</html>
