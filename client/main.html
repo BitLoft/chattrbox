@@ -1,0 +1,17 @@
+<head>
+    <title>Preso</title>
+</head>
+<body>
+{{> modal}}
+<div class="container">
+    {{> header}}
+    <div id="main" class="row-fluid">
+        {{renderPage}}
+    </div>
+</div>
+
+</body>
+
+<template name="layout">
+    {{{yield}}}
+</template>
