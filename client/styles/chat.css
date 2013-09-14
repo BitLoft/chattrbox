@@ -1,0 +1,14 @@
+#chat {
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+    border: 2px black solid;
+    overflow: scroll;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 3px solid #cccccc;
+    background-color: #DCECFB;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    }

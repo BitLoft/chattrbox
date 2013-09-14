@@ -1,0 +1,11 @@
+{
+  "packages": {
+    "router": {},
+    "font-awesome": {},
+    "accounts-ui-bootstrap-dropdown": {},
+    "secure-random": {},
+    "twitter-api": {},
+    "iron-router": {},
+    "mini-pages": {}
+  }
+}

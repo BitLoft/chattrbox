@@ -1,0 +1,61 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "router": {},
+      "font-awesome": {},
+      "accounts-ui-bootstrap-dropdown": {},
+      "secure-random": {},
+      "twitter-api": {},
+      "iron-router": {},
+      "mini-pages": {}
+    },
+    "packages": {
+      "router": {
+        "git": "https://github.com/tmeasday/meteor-router.git",
+        "tag": "v0.5.4.1",
+        "commit": "d00e380dda2184b70e909fc4a0fb5358d602c586"
+      },
+      "font-awesome": {
+        "git": "https://github.com/nate-strauser/meteor-font-awesome.git",
+        "tag": "v3.2.1",
+        "commit": "38bdfff72dfb8857b272f9a9b056045d6a015489"
+      },
+      "accounts-ui-bootstrap-dropdown": {
+        "git": "https://github.com/erobit/meteor-accounts-ui-bootstrap-dropdown.git",
+        "tag": "v0.6.5.1",
+        "commit": "c8b29d2e7f8611d6dec9d6d23c1c2b94e000b0fb"
+      },
+      "secure-random": {
+        "git": "https://github.com/recursivefaults/meteor-random.git",
+        "tag": "v1.0.1",
+        "commit": "a3350bcb3fe534b2e8eeb9257d73efdf0157c8e5"
+      },
+      "twitter-api": {
+        "git": "https://github.com/Sewdn/meteor-twitter-api.git",
+        "tag": "v0.1.0",
+        "commit": "c7a0dbfe61f6207d40cc1863c45b179aadadbb6a"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.5.4",
+        "commit": "3e0e22ff85630b7503d0daa1538c6d90abb84020"
+      },
+      "mini-pages": {
+        "git": "https://github.com/cmather/meteor-mini-pages.git",
+        "tag": "v0.3.2",
+        "commit": "4d885ffb6d0108ee2e47a13a6296c98a2f7b5059"
+      },
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
+      },
+      "HTML5-History-API": {
+        "git": "https://github.com/tmeasday/meteor-HTML5-History-API.git",
+        "tag": "v4.0.0",
+        "commit": "dc4965f1424cfca625ec3fbea17eace03f8e32c5"
+      }
+    }
+  }
+}

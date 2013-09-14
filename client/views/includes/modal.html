@@ -1,0 +1,38 @@
+<template name="modal">
+    <div id="createModal" class="modal hide fade">
+        <div class="modal-header">
+            <h3 class="text-center">Please Create Your Room</h3>
+        </div>
+        <div class="modal-body">
+            <form id="createRoomForm" class="form-horizontal">
+                <fieldset>
+                    <input class="input-block-level" name="roomname" type="text" value="" placeholder="Enter in your room name"/>
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Option one is this and that—be sure to include why it's great
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                        Option two can be something else and selecting it will deselect option one
+                    </label>
+                    <button class="btn btn-warning pull-right" type="submit" value="Submit">Create Room</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <div id="alertBox"></div>
+        </div>
+    </div>
+    <div id="joinModal" class="modal hide fade">
+        <div class="modal-header">
+            <h3>Please enter your Room Join ID</h3>
+        </div>
+        <div  class="modal-body">
+            <form id="joinRoomForm" class="form-horizontal">
+                <input name="joinID" type="text" value="" placeholder="Enter in your join room id"/>
+                <button class="btn btn-warning pull-right" type="submit" value="Submit">Join Room</button></span>
+            </form>
+        </div>
+        <div class="modal-footer id="alertBox"></div>
+    </div>
+</template>
