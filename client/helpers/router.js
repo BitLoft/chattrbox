@@ -16,6 +16,7 @@ Meteor.Router.add({
             console.log(id);
             Session.set('roomJoinID',Number(id));
            Session.set('roomUID',Object(Rooms.findOne({roomJoinID:Session.get('roomJoinID')})).roomUID);
+            Session.set('contentURL',Object(Rooms.findOne({roomJoinID:Session.get('roomJoinID')})).contentURL);
         }
 
     },

@@ -8,7 +8,8 @@ Template.modal.events({
             createdBy:Meteor.user().username,
             roomJoinID:Math.floor(Math.random()*90000) + 10000,
             roomUID:Number(String(Random.fraction()).substring(2))  ,
-            roomName:  $(e.target).find('[name=roomname]').val()
+            roomName:  $(e.target).find('[name=roomname]').val(),
+            contentURL:  $(e.target).find('[name=contentURL]').val()
         }
                if( room.roomName.replace(/\s/g, "") == "" | room.roomName.replace(/\s/g, "").length < "5" ){
                    document.getElementById("alertBox").className="alert text-center";
