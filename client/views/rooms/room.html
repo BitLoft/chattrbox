@@ -1,5 +1,10 @@
 <template name="room">
     <div  class="container-fluid well">
+            <div class="nav-collapse collapse pull-right">
+                    {{#if currentUser}}
+                    <li>{{> toolbar}}</li>
+                    {{/if}}"
+                    </div>
         <div class="span4">
                     {{#each messages}}
                         {{> message}}
