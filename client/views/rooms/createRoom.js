@@ -10,7 +10,7 @@ Template.createRoom.events({
         }
         if( room.roomName.replace(/\s/g, "") == "" | room.roomName.replace(/\s/g, "").length < "5" ){
             document.getElementById("alertBox").className="alert text-center";
-            document.getElementById("alertBox").innerHTML="<div>Please enter in a Name</div><div>That has more than 5 charachters</div>";
+            document.getElementById("alertBox").innerHTML="<div>Please enter in a Name</div><div>That has more than 5 characters</div>";
         } else {
         Session.set('roomUID',room.roomUID,room.roomJoinID),
         room._id = Rooms.insert(room);
