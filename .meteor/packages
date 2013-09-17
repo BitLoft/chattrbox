@@ -13,3 +13,6 @@ accounts-ui-bootstrap-dropdown
 secure-random
 twitter-api
 router
+accounts-twitter
+accounts-facebook
+accounts-google
