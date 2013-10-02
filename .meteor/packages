@@ -16,3 +16,5 @@ router
 accounts-twitter
 accounts-facebook
 accounts-google
+bootstrap-3
+accounts-ui-bootstrap-3

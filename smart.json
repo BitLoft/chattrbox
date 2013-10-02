@@ -6,6 +6,8 @@
     "secure-random": {},
     "twitter-api": {},
     "iron-router": {},
-    "mini-pages": {}
+    "mini-pages": {},
+    "bootstrap-3": {},
+    "accounts-ui-bootstrap-3": {}
   }
 }
